@@ -1,0 +1,38 @@
+export default [
+  {
+    id: 1,
+    name: 'Charmander',
+    image: require('../images/charmander.png'),
+    type: 'Fire',
+    hp: 39,
+    moves: ['Scratch', 'Ember', 'Growl', 'Leer'],
+    weaknesses: ['Water', 'Rock'],
+  },
+  {
+    id: 2,
+    name: 'Squirtle',
+    image: require('../images/squirtle.png'),
+    type: 'Water',
+    hp: 44,
+    moves: ['Tackle', 'Water Gun', 'Tail Whip', 'Withdraw'],
+    weaknesses: ['Electric', 'Grass'],
+  },
+  {
+    id: 3,
+    name: 'Bulbasaur',
+    image: require('../images/bulbasaur.png'),
+    type: 'Grass',
+    hp: 45,
+    moves: ['Tackle', 'Vine Whip', 'Growl', 'Leech Seed'],
+    weaknesses: ['Fire', 'Ice', 'Flying', 'Psychic'],
+  },
+  {
+    id: 4,
+    name: 'Pikachu',
+    image: require('../images/pikachu.png'),
+    type: 'Electric',
+    hp: 35,
+    moves: ['Quick Attack', 'Thunderbolt', 'Tail Whip', 'Growl'],
+    weaknesses: ['Ground'],
+  },
+];
